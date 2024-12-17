@@ -42,7 +42,7 @@ function FinalNode({ data }: any) {
   return (
     <>
       <Handle type="target" position={Position.Top} style={{visibility: "hidden", top: "3px"}} />
-      <div className="bg-red-600 rounded-full w-14 h-14 flex flex-col items-center justify-center p-2">
+      <div className="bg-red-600 rounded-full w-14 h-14 flex flex-col items-center justify-center">
       <div className="text-center text-white">{data.section}</div>
         <div className="text-center text-white">{data.label}</div>
       </div>

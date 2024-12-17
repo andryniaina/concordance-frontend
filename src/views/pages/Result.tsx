@@ -1,6 +1,7 @@
 import Logo from "../../assets/images/Logo.png";
 import Title from "../../assets/images/Title.png";
 import Graph from "../components/Graph";
+import Table from "../components/Table";
 
 function Result() {
   return (
@@ -27,6 +28,7 @@ function Result() {
           <span className="font-medium underline">
             Tableau de généalogie de la parcelle AT 862 :
           </span>
+          <Table/>
         </div>
       </div>
       <div className="flex flex-row px-5">
